@@ -90,17 +90,21 @@ time.sleep(3)
 *   `Data/`: Contains the datasets used by the engine.
 *   `assets/`: Contains extracted plots and images used in this README.
 
-## 📚 Dataset Citation
+## 📚 References & Dataset Citation
 
-The data used in this project is based on the **MovieLens 1M Dataset**.
+### Primary Implementation Dataset
+This project uses a derivative dataset that has been cleaned and enriched with TMDB poster links specifically for implementation in dashboards.
 
-**Citation:**
-> F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. <https://doi.org/10.1145/2827872>
+*   **Dataset Name:** MovieLens 1M with Posters & Metadata
+*   **Author:** Mohamed Elmallah
+*   **Source Link:** [Kaggle Dataset](https://www.kaggle.com/datasets/mohamedelmallah1/movielens-1m-with-posters-and-metadata)
+*   **Files Utilized:** `movies.csv`, `ratings.csv`, and `users.csv`.
 
-Data includes:
-*   `movies.csv`: Movie metadata and TMDB poster URLs.
-*   `ratings.csv`: User-movie interactions (ratings).
-*   `users.csv`: User demographic information.
+### Original Source Citation (For Academic Completeness)
+Since the Kaggle dataset is a derivative of the original research data, we acknowledge the authors who originally collected the 1 million ratings.
+
+*   **Research Paper:** F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. *ACM Transactions on Interactive Intelligent Systems (TiiS)* 5, 4, Article 19.
+*   **Original Research Link:** [GroupLens](https://grouplens.org/datasets/movielens/1m/)
 
 ## 🧑‍💻 Author
 
